@@ -65,6 +65,9 @@ group :development do
   # gem "spring"
 
   gem "hotwire-livereload", "~> 1.2"
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
 end
 
 group :test do
